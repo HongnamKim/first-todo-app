@@ -35,6 +35,11 @@ input::placeholder {
   color: white;
 }
 
+#clock {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
 h1,
 h2 {
   display: flex;
@@ -53,4 +58,22 @@ img {
   top: 0;
   left: 0;
   z-index: 1;
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  background: none;
+  margin-left: 10px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: center;
 }
