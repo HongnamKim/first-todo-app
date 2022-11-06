@@ -1,0 +1,56 @@
+.hidden {
+  display: none;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  border: none;
+  width: 20vw;
+  border-bottom: 2px solid white;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+#main-text {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+}
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
